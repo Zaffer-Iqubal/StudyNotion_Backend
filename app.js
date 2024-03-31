@@ -25,7 +25,7 @@ app.use(cookiesParser())
 
 app.use(
 	cors({
-		origin:"https://study-notion-edtech-one.vercel.app",
+		origin:"*",
 		credentials:true,
 	})
 )
